@@ -1,0 +1,105 @@
+.dashboard {
+  overflow: auto;
+  height: 100%;
+  background-color: rgb(249, 251, 253);
+  padding: 70px 30px 30px 30px;
+}
+.first_container {
+  display: flex;
+  justify-content: space-between;
+}
+.icon_and_info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon_container1 {
+  background-color: lightgreen;
+  border-radius: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+}
+.icon_container2 {
+  background-color: rgb(232, 211, 246);
+  border-radius: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+}
+
+.icon_container3 {
+  background-color: rgb(208, 246, 244);
+  border-radius: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+}
+
+.icon_container4 {
+  background-color: rgb(234, 172, 201);
+  border-radius: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+}
+
+.Icon1 {
+  color: green;
+  font-size: 40px;
+}
+.Icon2 {
+  color: rgb(144, 30, 230);
+  font-size: 40px;
+}
+.Icon3 {
+  color: rgb(47, 66, 208);
+  font-size: 40px;
+}
+.Icon4 {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+}
+.icon_color1 {
+  color: green;
+  font-size: 13px;
+}
+.icon_color2 {
+  color: rgb(255, 7, 7);
+  font-size: 13px;
+}
+
+// ------------------------------------------
+
+.Charts_main_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* Media query for tablets */
+@media (max-width: 850px) {
+  .Charts_main_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .Charts_main_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .first_container {
+    flex-direction: column;
+  }
+}

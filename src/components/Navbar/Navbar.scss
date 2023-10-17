@@ -1,0 +1,40 @@
+.navbar {
+  background-color: rgb(249, 251, 253);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 40px;
+  position: fixed;
+  z-index: 100;
+  padding: 10px;
+  h3 {
+    margin-left: 20px;
+  }
+  div {
+    margin-right: 20px;
+  }
+}
+
+.menuIcon {
+  display: none;
+}
+
+/* Media query for tablets */
+@media (max-width: 849px) {
+  .menuIcon {
+    display: block;
+  }
+  .navbar {
+    width: 100%;
+  }
+}
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .menuIcon {
+    display: block;
+  }
+  .navbar {
+    width: 100%;
+  }
+}

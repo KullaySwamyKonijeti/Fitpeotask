@@ -1,0 +1,20 @@
+.table_card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.07);
+  height: auto;
+  margin-top: 30px;
+}
+.headings_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.heading_second_container{
+    width: 40%;
+}
+.table_header {
+  background-color: white;
+}
